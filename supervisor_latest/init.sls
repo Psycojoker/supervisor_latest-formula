@@ -11,3 +11,7 @@ supervisor_latest_pkg:
 
 supervisord:
   service.running
+
+supervisor_latest-update:
+  cmd.wait:
+    - name: supervisorctl update
