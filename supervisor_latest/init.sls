@@ -1,3 +1,6 @@
+include:
+  - supervisor_latest
+
 supervisor_latest_dependancies:
   pkg.installed:
     - name: python-meld3
