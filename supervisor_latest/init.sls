@@ -1,5 +1,5 @@
 supervisor_latest_dependancies:
-  pkg.install:
+  pkg.installed:
     - name: python-meld3
     - require_in:
       - pkg: supervisor_latest_pkg
