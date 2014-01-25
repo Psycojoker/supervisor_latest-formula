@@ -9,7 +9,7 @@ supervisor_latest_pkg:
     - sources:
       - supervisor: salt://supervisor_latest/supervisor_3.0b2-1_all.deb
 
-supervisord:
+supervisor:
   service.running
 
 supervisor_latest-update:
